@@ -2,6 +2,11 @@
 
 A complete diary application following UPES Major Project Guidelines.
 
+*Student:* Shashwat Tripathi <br>
+*Roll No:* 590022932 <br>
+*Course:* B.Tech CSE, UPES <br>
+*Instructor:* Dr. Tanu Singh <br>
+
 ## ⭐ Features
 - Add diary entry  
 - View entries  
