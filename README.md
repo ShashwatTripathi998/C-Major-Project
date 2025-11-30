@@ -7,7 +7,7 @@ A complete diary application following UPES Major Project Guidelines.
 *Course:* B.Tech CSE, UPES <br>
 *Instructor:* Dr. Tanu Singh <br>
 
-## ⭐ Features
+## Features
 - Add diary entry  
 - View entries  
 - Search by date  
@@ -16,7 +16,7 @@ A complete diary application following UPES Major Project Guidelines.
 - Modular C architecture  
 - File handling  
 
-## 🗂 Folder Structure
+## Folder Structure
 ```
 src/
 include/
@@ -26,18 +26,18 @@ README.md
 diary.txt
 ```
 
-## 🛠 Compile & Run
+## Compile & Run
 ```
 gcc src/main.c src/diary.c -I include -o diary
 ./diary
 ```
 
-## 📑 System Workflow
+## System Workflow
 - Display menu  
 - Perform selected operation  
 - Loop until exit  
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - Password protection  
 - Encryption  
 - GUI support  
