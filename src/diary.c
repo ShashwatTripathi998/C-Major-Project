@@ -3,7 +3,7 @@
 #include <string.h>
 #include "../include/diary.h"
 
-// Add New Entry
+// this function adds new entry into the text file diary.txt
 void ADDentry() {
     FILE *fp = fopen("diary.txt", "a");
     struct Diary d;
@@ -28,7 +28,7 @@ void ADDentry() {
     printf("\nEntry saved successfully.\n");
 }
 
-// View All Entries
+// This fuction reads and diaplays all saved entries
 void VIEWentry() {
     FILE *fp = fopen("diary.txt", "r");
     struct Diary d;
@@ -51,7 +51,7 @@ void VIEWentry() {
     fclose(fp);
 }
 
-// Search Entry by Date
+//  this function searches all saved entries by date
 void SEARCHentry() {
     FILE *fp = fopen("diary.txt", "r");
     struct Diary d;
@@ -84,7 +84,7 @@ void SEARCHentry() {
         printf("\nNo entry exists for that date.\n");
 }
 
-// Edit Entry
+// this function edit entries by asking date when entry was written
 void EDITentry() {
     FILE *fp = fopen("diary.txt", "r");
     FILE *temp = fopen("temp.txt", "w");
@@ -130,7 +130,7 @@ void EDITentry() {
         printf("\nNo entry found for the given date.\n");
 }
 
-// Delete Entry
+// this function is responsible for deleting entries of specific date
 void DELETEentry() {
     FILE *fp = fopen("diary.txt", "r");
     FILE *temp = fopen("temp.txt", "w");
