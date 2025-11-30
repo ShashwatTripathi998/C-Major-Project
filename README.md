@@ -21,9 +21,7 @@ A complete diary application following UPES Major Project Guidelines.
 src/
 include/
 docs/
-assets/
 README.md
-diary.txt
 ```
 
 ## Compile & Run
