@@ -9,7 +9,8 @@ struct Diary {
     char content[500];
 };
 
-// Function Declarations
+/* here i have made 5 void fuctions and each function is made for different tasks
+ which will be specified later in the program*/
 void ADDentry();
 void VIEWentry();
 void SEARCHentry();
