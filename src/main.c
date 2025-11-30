@@ -5,7 +5,7 @@
 
 int main() {
     int choice;
-
+// here while(1) is used because it will keep showing the menu again and again after each action
     while (1) {
         clear_screen();
 
@@ -24,7 +24,7 @@ int main() {
         printf("\nEnter your choice: ");
         scanf("%d", &choice);
         getchar();
-
+// here each case takes you to a specific choice
         switch (choice) {
         case 1:
             ADDentry();
