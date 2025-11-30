@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../include/diary.h"
+#include "../include/utils.h"
 
 int main() {
     int choice;
 
     while (1) {
+        clear_screen();
+
         printf("\n========================================");
         printf("\n        PERSONAL DIARY MANAGEMENT       ");
         printf("\n========================================\n");
@@ -20,7 +23,7 @@ int main() {
 
         printf("\nEnter your choice: ");
         scanf("%d", &choice);
-        getchar();   // clear newline
+        getchar();
 
         switch (choice) {
         case 1:
@@ -44,6 +47,9 @@ int main() {
         default:
             printf("\nInvalid option. Please try again.\n");
         }
+
+        printf("\nPress Enter to continue...");
+        getchar();
     }
 
     return 0;
